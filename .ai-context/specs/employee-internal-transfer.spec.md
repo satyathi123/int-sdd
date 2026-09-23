@@ -8,18 +8,20 @@
 `employee-internal-transfer`
 
 ## Status
-**Approved v1.3** — Gate 1 CONDITIONAL PASS (2026-08-30); Gate 1, plan-review and task-decomposition findings closed.
+**BLOCKED / HELD** — Awaiting Gate 0 BRD PR Review approval for `.ai-context/BRD.md` v1.1. Gate 1 submission is held per INT SDD sequential gate policy.
 
 ## Roles & Assignments
 - **Developer / Spec Author:** Anand Satyarthi (`anand.satyarthi@indusnet.co.in`)
-- **Gate 1 Reviewer(s):** Supratim Jetty (`supratim.jetty@intglobal.com`)
+- **Gate 0 / Gate 1 Reviewer(s):** Supratim Jetty (`supratim.jetty@intglobal.com`)
 - **Gate 2 Reviewer(s):** Supratim Jetty (`supratim.jetty@intglobal.com`)
 
 ## Gate Approvals & History
 | Gate | Approver Name | Approver Email/ID | Date/Time | Outcome | Approval Comment / Summary |
 |---|---|---|---|---|---|
-| Gate 1 (Spec Review) | Supratim Jetty | supratim.jetty@intglobal.com | 2026-08-30 14:00:00 | Approved (Conditional Pass) | Approved v1.3 — Gate 1 CONDITIONAL PASS; unblocked scope authorised |
-| Gate 2 (Code Review) | Supratim Jetty | supratim.jetty@intglobal.com | Pending | In Progress | - |
+| Gate 0 (BRD Review) | Supratim Jetty | supratim.jetty@intglobal.com | Pending | In Review | Submitted for Gate 0 BRD PR Review |
+| Gate 1 (Spec Review) | Supratim Jetty | supratim.jetty@intglobal.com | Pending | Held | Spec draft held until Gate 0 BRD Approval |
+| Gate 2 (Code Review) | Supratim Jetty | supratim.jetty@intglobal.com | Pending | Blocked | Blocked on Gate 0 & Gate 1 Approvals |
+
 
 Plan drafting authorised. Implementation authorised for the unblocked scope in
 `.ai-context/reviews/employee-internal-transfer.gate1.md` §6 **only**. Gated

@@ -1,4 +1,4 @@
-﻿# Prompt History Log
+# Prompt History Log
 
 ## [2026-09-17 12:53:10] - Initial Project Setup
 - **Prompt:** `./int-project-setup`
@@ -37,3 +37,9 @@
 ## [2026-09-17 14:50:13] - Generate SDD Delivery Tracker Spreadsheet
 - **Prompt:** make a xls for me according my above BRD and all make date start from today and what did you understand
 - **Execution Summary:** Generated native formatted Excel workbook (Employee_Internal_Transfer_SDD_Delivery_Tracker.xlsx) and CSV copy (Employee_Internal_Transfer_SDD_Delivery_Tracker.csv) based on the SDD phases and deliverables (D1-D11), with dates starting from today (Thu 17 Sep 2026). Provided detailed breakdown of project understanding, BRD changes, and lifecycle milestones.
+
+
+## [2026-09-23 15:35:00] - Gate Sequence Correction & Gate 0 BRD PR Review Submission
+- **Prompt:** Review feedback from Supratim Jetty regarding Gate 1 raised prematurely while Gate 0 BRD PR Review is open.
+- **Execution Summary:** Diagnosed gate sequence violation, held Gate 1 Spec submission (`.ai-context/specs/employee-internal-transfer.spec.md` updated to BLOCKED / HELD), updated status board (`.ai-context/status.md`), and formally presented `.ai-context/BRD.md` v1.1 for Gate 0 BRD PR Review to assigned reviewer Supratim Jetty (`supratim.jetty@intglobal.com`). Enforced Gate 0 HALT per mandatory engineering policy.
+
