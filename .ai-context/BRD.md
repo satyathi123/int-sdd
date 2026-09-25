@@ -1,11 +1,11 @@
-﻿# Business Requirements Document (BRD)
+# Business Requirements Document (BRD)
 
 ## Project Name
 Employee Internal Transfer (MobilityHub)
 
 ## Document Metadata
 - **Version:** 1.1 (Customized Baseline)
-- **Status:** In Review (Pending Gate 0 BRD PR Review)
+- **Status:** Changes Requested (Gate 0 BRD PR Review - Revisions Required)
 - **Process Owner:** HR Operations & People Operations Team
 - **Product Owner:** One-Point Employee Portal Product Team
 - **Technical Author:** Anand Satyarthi (`anand.satyarthi@indusnet.co.in`)

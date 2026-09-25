@@ -43,3 +43,22 @@
 - **Prompt:** Review feedback from Supratim Jetty regarding Gate 1 raised prematurely while Gate 0 BRD PR Review is open.
 - **Execution Summary:** Diagnosed gate sequence violation, held Gate 1 Spec submission (`.ai-context/specs/employee-internal-transfer.spec.md` updated to BLOCKED / HELD), updated status board (`.ai-context/status.md`), and formally presented `.ai-context/BRD.md` v1.1 for Gate 0 BRD PR Review to assigned reviewer Supratim Jetty (`supratim.jetty@intglobal.com`). Enforced Gate 0 HALT per mandatory engineering policy.
 
+
+## [2026-09-25 18:17:30] - INT Global Skill & Control Plane Synchronization
+- **Prompt:** `/int-sync-global-skills`
+- **Execution Summary:** Synchronized local project configuration with global INT control plane:
+  - Synced rules to `.agent/rules/`.
+  - Synced workflows to `.agent/workflows/`.
+  - Synced 15 skills cleanly to `.agent/skills/` (excluding all nested `resources/` directories).
+  - Cleaned legacy `.agents/` and `workflows/` root directories to enforce standard `.agent/` architecture.
+
+
+## [2026-09-25 18:25:26] - Gate 0 BRD PR Review Execution
+- **Prompt:** `/int-pr-gate-workflow`
+- **Execution Summary:** Authenticated Git reviewer Supratim Jetty (`supratim.jetty@intglobal.com`) executed Gate 0 BRD PR Review for `.ai-context/BRD.md` (v1.1):
+  - Review Outcome: **`Changes Requested`**
+  - Feedback: Comprehensive functional requirements, non-functional requirements, assumptions, and expanded departmental/location transfer scope must be added.
+  - Action Taken: Generated review record [`.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md), updated [`.ai-context/BRD.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/BRD.md) and [`.ai-context/status.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/status.md). Enforced Gate 0 HALT per mandatory engineering policy.
+
+
+

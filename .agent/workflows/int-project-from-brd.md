@@ -14,6 +14,7 @@ development lifecycle.
 The current approved Business Requirements Document shall be maintained at:
 
 .ai-context/BRD.md
+.ai-context/assumptions.md
 
 This file represents the current business requirement baseline.
 

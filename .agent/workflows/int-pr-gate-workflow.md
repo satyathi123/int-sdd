@@ -131,7 +131,7 @@ The system **STRICTLY STOPS** and refuses to proceed to downstream steps (`.plan
 >
 > 🔒 **Enforcement Rule**: You cannot proceed with planning, coding, or merging for a rejected artifact.
 > **Required Next Action**:
-> - **For Gate 0 Rejection**: Author must update `.ai-context/BRD.md` to resolve comments and re-submit for Gate 0 review.
+> - **For Gate 0 Rejection**: Author must update `.ai-context/BRD.md` and `.ai-context/assumptions.md` to resolve comments and re-submit for Gate 0 review.
 > - **For Gate 1 Rejection**: Author must update `.ai-context/specs/<slug>.spec.md` to resolve comments and re-submit for Gate 1 review.
 > - **For Gate 2 Rejection**: Developer must update code in `src/` and tests under `tests/` to resolve comments and re-submit for Gate 2 review.
 
@@ -149,7 +149,11 @@ The system **STRICTLY STOPS** and refuses to proceed to downstream steps (`.plan
    - **Gate 2 Approver**: Shows pending Gate 2 Code Reviews (`In QA`).
    - **Multi-Role Approver**: Shows ALL assigned pending reviewals (BRD, Gate 1 Specs, Gate 2 Code) in the same listing!
 
-   > **"Which item would you like to review?"**
+   > **"Which action would you like to take on pending reviews?"**
+
+   - **[ Option A — Bulk Action: Approve All Pending Items ]** (Approve all assigned pending Gate 0, Gate 1, and Gate 2 reviews in one click with sign-off comments)
+   - **[ Option B — Bulk Action: Reject All Pending Items ]** (Reject all assigned pending Gate 0, Gate 1, and Gate 2 reviews with revision feedback)
+   - **[ Option C — Select Individual Item for Line-by-Line Review ]**
 
    | # | Item / Spec ID | Title | Gate Level | Assigned Role | Author/Dev | Current Status |
    |---|---|---|---|---|---|---|
@@ -157,6 +161,7 @@ The system **STRICTLY STOPS** and refuses to proceed to downstream steps (`.plan
    | 2 | `auth-service` | User Authentication Spec | **Gate 1** | Gate 1 Reviewer | Dev A | Pending Spec Review |
    | 3 | `payment-gateway` | Payment Gateway Code | **Gate 2** | Gate 2 Reviewer | Dev B | Pending Code Review |
    | 4 | `order-engine` | Order Processing Spec | **Gate 1 & Gate 2** | Dual Reviewer | Dev C | Pending Spec Review |
+
 
 2. **Spec & BRD-Oriented Interactive Q&A Review Process**:
    When the reviewer selects a spec:
