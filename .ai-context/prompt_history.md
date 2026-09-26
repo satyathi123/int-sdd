@@ -58,6 +58,19 @@
 - **Execution Summary:** Authenticated Git reviewer Supratim Jetty (`supratim.jetty@intglobal.com`) executed Gate 0 BRD PR Review for `.ai-context/BRD.md` (v1.1):
   - Review Outcome: **`Changes Requested`**
   - Feedback: Comprehensive functional requirements, non-functional requirements, assumptions, and expanded departmental/location transfer scope must be added.
+  - Review Record: `.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md`
+
+
+## [2026-09-26 16:25:00] - Author Revisions for BRD v1.2 & Gate 0 Resubmission
+- **Prompt:** Update BRD according to Gate 0 PR review feedback from Supratim Jetty (`0d27ea65c0be9d1f8a03e3dbc109794fa86fdd3e`).
+- **Execution Summary:** Revised `.ai-context/BRD.md` to Version 1.2:
+  - Added §2 (Expanded Transfer Categories: Departmental, Location, Lateral, Project).
+  - Added §4 (Functional Requirements FR-001–FR-009).
+  - Added §5 (Non-Functional Requirements NFR-001–NFR-005).
+  - Added §6 (Assumptions, Dependencies & Constraints).
+  - Updated `.ai-context/brd-change-log.md` with v1.2 change details.
+  - Updated `.ai-context/status.md` and resubmitted `.ai-context/BRD.md` v1.2 for Gate 0 BRD PR Review approval.
+
   - Action Taken: Generated review record [`.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md), updated [`.ai-context/BRD.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/BRD.md) and [`.ai-context/status.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/status.md). Enforced Gate 0 HALT per mandatory engineering policy.
 
 
