@@ -71,7 +71,16 @@
   - Updated `.ai-context/brd-change-log.md` with v1.2 change details.
   - Updated `.ai-context/status.md` and resubmitted `.ai-context/BRD.md` v1.2 for Gate 0 BRD PR Review approval.
 
-  - Action Taken: Generated review record [`.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md), updated [`.ai-context/BRD.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/BRD.md) and [`.ai-context/status.md`](file:///c:/Users/Supratim_Jetty/Desktop/office%20projects/AI_Projects/Anand/int-sdd/.ai-context/status.md). Enforced Gate 0 HALT per mandatory engineering policy.
+
+## [2026-09-29 10:50:00] - Author Revisions for BRD v1.3 & Gate 0 Resubmission
+- **Prompt:** Update BRD to incorporate Role-Based Access Control (RBAC) matrix and complete Super Admin workflow per reviewer instructions.
+- **Execution Summary:** Revised `.ai-context/BRD.md` to Version 1.3:
+  - Added §4 (Role-Based Access Control Architecture & Access Matrix across 7 user roles).
+  - Added §5 (Super Admin End-to-End Workflow, Parameter Configuration, User Role Governance & Delegation, Global Workflow Override, Downstream Task Retry & Exception Management, and Audit Telemetry).
+  - Expanded Functional Requirements (§6) with FR-010 (RBAC Enforcement) and FR-011 (Super Admin Portals).
+  - Updated `.ai-context/brd-change-log.md` with v1.3 change details.
+  - Updated `.ai-context/status.md` and resubmitted `.ai-context/BRD.md` v1.3 for Gate 0 BRD PR Review approval.
+
 
 
 

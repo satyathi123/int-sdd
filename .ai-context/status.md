@@ -4,7 +4,7 @@
 - **Project:** Employee Internal Transfer (MobilityHub)
 - **Type:** Full Stack
 - **Architecture:** Modular Monolith (Microservice-Ready)
-- **Current Phase:** BRD v1.2 Resubmitted for Gate 0 BRD PR Review Approval
+- **Current Phase:** BRD v1.3 Resubmitted for Gate 0 BRD PR Review Approval
 
 ## Governance Roster
 - **Gate 0 / Gate 1 Reviewer (PM):** Supratim Jetty <supratim.jetty@intglobal.com>
@@ -14,7 +14,7 @@
 ## Feature Specs & Lifecycle Tracking
 | Artifact / Spec ID | Title / Feature | Author | Gate 0 (BRD) | Gate 1 (Spec) | Status | Gate 2 (Code) | Release |
 |---|---|---|---|---|---|---|---|
-| `BRD.md` | Employee Internal Transfer (v1.2) | Anand Satyarthi | Pending Re-Review | - | In Review (Gate 0) | - | - |
+| `BRD.md` | Employee Internal Transfer (v1.3) | Anand Satyarthi | Pending Re-Review | - | In Review (Gate 0) | - | - |
 | `employee-internal-transfer` | Employee Internal Transfer Digital Journey | Anand Satyarthi | Pending Gate 0 Approval | Held | Blocked (Awaiting Gate 0) | - | - |
 
 ## Active Tasks
@@ -25,10 +25,12 @@
 - [x] Corrected gate sequence: Held Gate 1 spec submission; routed BRD v1.1 for Gate 0 review
 - [x] Gate 0 BRD PR Review executed by Supratim Jetty (`supratim.jetty@intglobal.com`) -> Status: Changes Requested (`.ai-context/pr_reviews/GATE0-brd-baseline-20260925-182500.md`)
 - [x] Author Revisions for BRD v1.2 (`.ai-context/BRD.md`): Included FRs, NFRs, Assumptions/Dependencies/Constraints, and expanded Departmental/Location/Lateral/Project transfer categories
-- [x] Resubmit BRD v1.2 for Gate 0 BRD PR Review Approval
+- [x] Author Revisions for BRD v1.3 (`.ai-context/BRD.md`): Added Role-Based Access Control (RBAC) matrix across 7 roles and complete Super Admin workflow & governance module
+- [x] Resubmit BRD v1.3 for Gate 0 BRD PR Review Approval
 - [ ] Gate 0 BRD PR Review Approval (Assigned Reviewer: `supratim.jetty@intglobal.com`) <-- CURRENT ACTIVE GATE
 - [ ] Feature Spec Update & Alignment (`.ai-context/specs/employee-internal-transfer.spec.md`) (HELD until Gate 0 approval)
 - [ ] Gate 1 Spec PR Review & Approval (HELD until Gate 0 approval)
 - [ ] Implementation Planning & Task Generation
+
 
 
